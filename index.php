@@ -6,11 +6,12 @@
     <title>Color Changer</title>
     <!-- Import jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
     <script>
         // Document Ready function ensures code runs after the DOM is fully loaded
         $(document).ready(function(){
-            
-            // Retrieve the saved background color from localStorage if available
+            // Retrieve saved background color
             var savedColor = localStorage.getItem("bgColor");
             if (savedColor) {
                 $("body").css("background-color", savedColor);
@@ -18,13 +19,10 @@
             
             // Listen for a button click to change the background color
             $("#changeColorButton").click(function(){
-                
-                // Perform a GET request to the PHP file, which will return a new color
+                // Perform a GET request to the PHP file
                 $.get("color.php", function(data) {
-                    
-                    // Change the background color to the new color
+                    // Change the background color
                     $("body").css("background-color", data);
-                    
                     // Save the new background color in localStorage
                     localStorage.setItem("bgColor", data);
                 });
@@ -33,7 +31,7 @@
     </script>
 </head>
 <body>
-    <!-- Button that will trigger the background color change -->
+    <!-- Button to change background color -->
     <button id="changeColorButton">Change Background Color</button>
 </body>
 </html>
