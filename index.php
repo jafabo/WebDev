@@ -17,6 +17,9 @@
                 $("body").css("background-color", savedColor);
             }
             
+            // Add a fade-in effect for the button over 1 second
+            $('#changeColorButton').fadeIn(1000);
+
             // Listen for a button click to change the background color
             $("#changeColorButton").click(function(){
                 // Perform a GET request to the PHP file
@@ -31,7 +34,7 @@
     </script>
 </head>
 <body>
-    <!-- Button to change background color -->
-    <button id="changeColorButton">Change Background Color</button>
+    <!-- Initially hidden button to change background color -->
+    <button id="changeColorButton" style="display:none;">Change Background Color</button>
 </body>
 </html>
