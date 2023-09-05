@@ -16,6 +16,6 @@
     </script>
 </head>
 <body>
-    <button id="changeColorButton">Change Background Color</button>
+    <button id="changeColorButton">Change Background Color!</button>
 </body>
 </html>
