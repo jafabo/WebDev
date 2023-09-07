@@ -18,7 +18,7 @@
             }
             
             // Add a fade-in effect for the button over 1 second
-            $('#changeColorButton').fadeIn(5000);
+            $('#changeColorButton').fadeIn(1000);
 
             // Listen for a button click to change the background color
             $("#changeColorButton").click(function(){
