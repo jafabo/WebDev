@@ -1,25 +1,12 @@
-# Use Ubuntu as the base image
-FROM ubuntu:23.10
+FROM python:3.11-slim
+ENV PORT 8000
+EXPOSE 8000
+WORKDIR /usr/src/app
 
-# Set the time zone
-ENV TZ=America/New_York
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Apache, PHP, Python
-RUN apt-get update && apt-get install -y apache2 php python3 python3-pip
+COPY . .
 
-# Copy custom Apache configuration
-COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
-
-# Enable the site configuration
-RUN a2ensite 000-default.conf
-
-# Remove default Apache index.html
-RUN rm /var/www/html/index.html
-
-# Copy your web files to Apache's root folder
-COPY ./web-files/ /var/www/html/
-
-# Run Apache in foreground and reload its config before
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-
+ENTRYPOINT ["python"]
+CMD ["app.py"]
