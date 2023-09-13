@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Weinberger-backend
+  labels:
+    app: Weinberger-backend
+  namespace: namespace-workflow-1694649061468
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Weinberger-backend
+  template:
+    metadata:
+      labels:
+        app: Weinberger-backend
+    spec:
+      containers:
+        - name: Weinberger-backend
+          image: acrworkflow1694649061468.azurecr.io/image-workflow-1694649061468:latest
+          ports:
+            - containerPort: 8000
