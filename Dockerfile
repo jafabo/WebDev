@@ -1,5 +1,5 @@
 # Use Ubuntu as the base image
-FROM ubuntu:latest
+FROM ubuntu:23.10
 
 # Set the time zone
 ENV TZ=America/New_York
