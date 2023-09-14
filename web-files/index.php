@@ -34,7 +34,15 @@
     </script>
 </head>
 <body>
-    <!-- Initially hidden button to change background color -->
+  <div class="container">
     <button id="changeColorButton" style="display:none;">Change Background Color</button>
+    <p class="pod-name">
+      <?php
+        $pod_name = getenv('POD_NAME');
+        echo "Served by pod: $pod_name";
+      ?>
+    </p>
+  </div>
 </body>
+
 </html>
