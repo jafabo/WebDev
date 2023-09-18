@@ -25,7 +25,6 @@
             ?>
         </p>
         <h1>Welcome to Kubernetes Information Hub!</h1>
-        <!-- Add other content you'd like for your landing page here -->
     </div>
 </body>
 </html>
