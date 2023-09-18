@@ -1,6 +1,32 @@
+/* Reset default styles */
+body, h1, h2, p, a, nav {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
 .navbar {
   background-color: #333;
   overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .navbar a {
@@ -9,7 +35,7 @@
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
@@ -17,14 +43,48 @@
   color: black;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh; /* Reduced to account for the nav bar */
+.pod-name {
+  background-color: #e9e9e9;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
 
-.pod-name {
-  margin-top: 20px;
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.k8s-logo, .k8s-diagram {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.k8s-diagram {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {
+      float: none;
+      display: block;
+  }
 }
