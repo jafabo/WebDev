@@ -19,6 +19,7 @@ RUN rm /var/www/html/index.html
 
 # Copy your web files to Apache's root folder
 COPY ./web-files/ /var/www/html/
+COPY . /var/www/html/
 
 # Run Apache in foreground and reload its config before
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
