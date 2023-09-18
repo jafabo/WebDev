@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar">
+    <nav class="navbar">
             <a href="index.php">Home</a>
-            <a href="color-changer.php">Color Changer</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>
             <a href="#">Web Apps & K8s</a>
             <a href="#">K8s Benefits</a>
             <a href="#">Learn More</a>
+            <a href="color-changer.php">Color Changer</a>
         </nav>
         <p class="pod-name">
         <?php
