@@ -48,7 +48,7 @@
         <h2>Today: The Leading Orchestration Platform</h2>
         <p>
             Today, Kubernetes is supported by an enormous community and has become the backbone of many modern infrastructures. It supports multi-cloud deployments, ensuring scalability, and high availability.
-            <img src="kubernetes-today.jpg" alt="Modern Kubernetes architecture and deployments" class="k8s-diagram">
+            <img src="weave_kubernetes_platform_updated.webp" alt="Modern Kubernetes architecture and deployments" class="k8s-diagram">
         </p>
 
         <footer>
