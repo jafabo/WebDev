@@ -34,10 +34,10 @@
     </script>
 </head>
 <body>
-    <nav class="navbar">
+<nav class="navbar">
         <a href="index.php">Home</a>
         <a href="color-changer.php">Color Changer</a>
-        <a href="#">Kubernetes Overview</a>
+        <a href="k8s-overview.php">Kubernetes Overview</a>
         <a href="#">K8s Evolution</a>
         <a href="#">Web Apps & K8s</a>
         <a href="#">K8s Benefits</a>
