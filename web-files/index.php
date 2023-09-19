@@ -23,7 +23,7 @@
                 echo "Served by pod: $pod_name";
             ?>
         </p>
-        <h1>Welcome to Kubernetes Information Hub!</h1>
+        <h1 class="welcome-message">Welcome to Kubernetes Information Hub!</h1>
 
         <!-- Introduction Section -->
         <section class="intro-section">
