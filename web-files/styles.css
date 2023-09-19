@@ -103,11 +103,16 @@ a:hover {
 .welcome-message {
   font-family: monospace;
   font-size: 3em;
-  animation: color-change 1s infinite;
+  animation: color-change 6s infinite;
 }
 
 @keyframes color-change {
-  0% { color: red; }
-  50% { color: blue; }
-  100% { color: red; }
+  0% { color: red; }         /* Start with red */
+  17% { color: yellow; }     /* Transition to yellow */
+  34% { color: green; }      /* Transition to green */
+  51% { color: cyan; }       /* Transition to cyan */
+  68% { color: blue; }       /* Transition to blue */
+  85% { color: magenta; }    /* Transition to magenta */
+  100% { color: red; }       /* Return to red */
 }
+
