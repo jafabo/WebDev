@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: my-webapp-container
-        image: mweinberger/webapp-image:latest
+        image: localhost/webapp-image:latest
         ports:
         - containerPort: 80
+          hostPort: 8080
         env:
         - name: POD_NAME
           valueFrom:
