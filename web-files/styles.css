@@ -100,20 +100,6 @@ a:hover {
   }
 }
 
-.welcome-message {
-  font-family: monospace;
-  font-size: 3em;
-  animation: color-change 6s infinite;
-}
 
-@keyframes color-change {
-  0% { color: red; }         /* Start with red */
-  14% { color: orange; }     /* Transition to orange */
-  28% { color: yellow; }     /* Transition to yellow */
-  42% { color: green; }      /* Transition to green */
-  56% { color: cyan; }       /* Transition to cyan */
-  70% { color: blue; }       /* Transition to blue */
-  84% { color: magenta; }    /* Transition to magenta */
-  100% { color: red; }       /* Return to red */
-}
+
 
