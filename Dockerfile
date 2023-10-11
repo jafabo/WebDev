@@ -20,6 +20,9 @@ RUN rm /var/www/html/index.html
 # Copy your web files to Apache's root folder
 COPY ./web-files/ /var/www/html/
 
+# Define the variable that shows the name of the pod
+ENV POD_NAME='Cake is a Lie'
+
 # Expose port 80
 EXPOSE 80
 
