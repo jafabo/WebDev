@@ -34,6 +34,23 @@
         </section>
 
         <section>
+            <h2>Youtube Videos</h2>
+            <ul>
+                <li><strong>"What is Kubernetes?"</strong> 
+                    <div style="display: flex; justify-content: left;">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/cC46cg5FFAM"></iframe>
+                    </div>
+                </li>
+            <br>
+                <li><strong>"Kubernetes Explained in 100 Seconds"</strong> 
+                    <div style="display: flex; justify-content: left;">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/PziYflu8cB8"></iframe>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Online Courses</h2>
             <ul>
                 <li><strong>Udemy:</strong> "Learn Kubernetes from A to Z"</li>
