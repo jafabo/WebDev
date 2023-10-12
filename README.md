@@ -4,6 +4,9 @@ docker run --hostname=Container --mac-address=02:42:ac:11:00:02 --env=PATH=/usr/
 
 docker build -t webapp-image:recent .
 
+podman tag webapp-image:recent mweinberger/repository:tag
+
+podman push mweinberger/webapp-image:recent 
 
 be sure that the folder that is selected for the project is "webdev" and not www!!
 
