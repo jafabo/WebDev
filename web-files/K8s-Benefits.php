@@ -62,7 +62,7 @@
         
         <section class="cta-section">
             <h2>Ready to Explore More?</h2>
-            <p>For more in-depth knowledge, visit our <a href="#">Learn More</a> section to take your Kubernetes understanding to the next level!</p>
+            <p>For more in-depth knowledge, visit our <a href="Learn-More.php">Learn More</a> section to take your Kubernetes understanding to the next level!</p>
         </section>
     </div>
 </body>
