@@ -1,0 +1,37 @@
+body {
+    background-color: #F8DEE2;
+    color: #6A0572;
+}
+
+.navbar {
+    background-color: #B3D9F1;
+}
+
+.navbar a {
+    color: #6A0572;
+}
+
+.navbar a:hover {
+    background-color: #A4C0E1;
+    color: #240047;
+}
+
+.pod-name {
+    background-color: #FDE5FA;
+}
+
+h1, h2 {
+    color: #48095E;
+}
+
+th {
+    background-color: #F4A8C7;
+}
+
+a {
+    color: #240047;
+}
+
+a:hover {
+    color: #120023;
+}

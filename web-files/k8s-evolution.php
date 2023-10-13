@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kubernetes Evolution</title>
-    <link rel="stylesheet" href="styles.css">
+    <link id="themeStylesheet" rel="stylesheet" href="styles.css">
+    <script src="themeChanger.js"></script>
 </head>
 <body>
     <div class="container">

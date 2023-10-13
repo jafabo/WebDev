@@ -7,7 +7,8 @@
     <!-- Import jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="styles.css">
+    <link id="themeStylesheet" rel="stylesheet" href="styles.css">
+    <script src="themeChanger.js"></script>
     <script>
         // Document Ready function ensures code runs after the DOM is fully loaded
         $(document).ready(function(){
@@ -53,6 +54,11 @@
         </p>
 
         <button id="changeColorButton" style="display:none;">Change Background Color</button>
+        <button onclick="changeTheme('pastel')">Pastel Theme</button>
+        <button onclick="changeTheme('edgy')">Edgy Theme</button>
+        <button onclick="changeTheme('default')">Default Theme</button>
+
+
     </div>
 </body>
 </html>

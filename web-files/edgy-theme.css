@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+    color: #FF0000; /* red text */
+}
+
+.navbar {
+    background-color: #444;
+}
+
+.navbar a {
+    color: #00FF00; /* green text */
+}
+
+.navbar a:hover {
+    background-color: #666;
+    color: #FF0000; /* red text on hover */
+}
+
+.pod-name {
+    background-color: #222;
+    color: #00FF00; /* green text */
+}
+
+h1, h2 {
+    color: #FF0000; /* red text */
+}
+
+th {
+    background-color: #333;
+    color: #00FF00; /* green text */
+}
+
+a {
+    color: #FF0000; /* red links */
+}
+
+a:hover {
+    color: #00FF00; /* green links on hover */
+}
