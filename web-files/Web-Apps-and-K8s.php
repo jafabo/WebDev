@@ -1,68 +1,72 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Apps & K8s</title>
+    <title>Web Applications and Kubernetes</title>
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
 </head>
 <body>
     <div class="container">
+        <!-- Navigation Bar -->
         <nav class="navbar">
+            <!-- Navigation Links -->
             <a href="index.php">Home</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>
-            <a href="Web-Apps-and-K8s.php">Web Apps & K8s</a>
+            <a href="Web-Apps-and-K8s.php" class="active">Web Apps & K8s</a>
             <a href="K8s-Benefits.php">K8s Benefits</a>
             <a href="Learn-More.php">Learn More</a>
             <a href="color-changer.php">Color Changer</a>
         </nav>
-        <p class="pod-name">
-            <?php
-                $pod_name = getenv('POD_NAME');
-                echo "Served by pod: $pod_name";
-            ?>
-        </p>
-        <h1>Web Apps & Kubernetes</h1>
-        
-        <section class="intro">
-            <p>
-              Kubernetes is becoming the go-to infrastructure layer for deploying web applications. It provides a powerful platform for deploying applications, scaling them as necessary, and managing changes to existing containerized applications.
-            </p>
+        <h1 class="page-title">Web Applications and Kubernetes</h1>
+        <!-- Page Content -->
+        <section class="web-apps-intro">
+            <h2>Integrating Web Applications with Kubernetes</h2>
+            <p>Modern web applications benefit from Kubernetes' ability to manage complex containerized environments. This integration allows developers to focus on writing code without worrying about the underlying infrastructure.</p>
         </section>
-        
-        <section class="why-k8s">
-            <h2>Why Use Kubernetes for Web Apps?</h2>
-            <p>
-                Using Kubernetes brings in the benefits of container orchestration, automatic scaling, and efficient resource utilization. It handles the deployment and scaling of applications and also provides important features like self-healing.
-            </p>
+        <section class="web-apps-benefits">
+            <h2>Benefits for Web Applications</h2>
+            <p>With Kubernetes, web applications gain the advantage of horizontal scaling, automated rollouts, self-healing mechanisms, and a robust ecosystem of tools.</p>
         </section>
-
-        <section class="common-use-cases">
-            <h2>Common Use-Cases</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Use-Case</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>E-commerce</td>
-                        <td>For online stores, Kubernetes helps in balancing the load during peak traffic times like Black Friday, ensuring smooth customer experience.</td>
-                    </tr>
-                    <tr>
-                        <td>Streaming Services</td>
-                        <td>Kubernetes is capable of automatically scaling the infrastructure as more users start streaming, ensuring that the service remains smooth.</td>
-                    </tr>
-                    <tr>
-                        <td>SaaS Applications</td>
-                        <td>Kubernetes allows for efficient multi-tenancy, where each tenant or customer has isolated, secure access to a single instance of the application.</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section class="web-apps-strategy">
+            <h2>Strategies for Deployment</h2>
+            <p>Deploying web applications on Kubernetes requires a strategy that includes containerization, continuous integration, continuous deployment, and proactive monitoring.</p>
+        </section>
+        <section class="web-apps-future">
+            <h2>The Future of Web Apps with Kubernetes</h2>
+            <p>The synergy between web applications and Kubernetes is shaping the future of cloud-native technologies, leading to innovative solutions and practices.</p>
+        </section>
+        <!-- Additional sections based on user request -->
+        <section class="k8s-case-studies">
+            <h2>Real-World Case Studies</h2>
+            <p>Explore how different organizations have optimized their web application performance and workflow using Kubernetes, overcoming scalability and deployment hurdles.</p>
+        </section>
+        <section class="k8s-tutorials">
+            <h2>Interactive Kubernetes Tutorials</h2>
+            <p>Hands-on tutorials to learn how to deploy, scale, and manage your web applications using Kubernetes.</p>
+        </section>
+        <section class="k8s-tools">
+            <h2>Kubernetes Tools and Extensions</h2>
+            <p>Discover tools that enhance Kubernetes functionality for web development, such as Helm for package management and Istio for service mesh architecture.</p>
+        </section>
+        <section class="k8s-best-practices">
+            <h2>Kubernetes Deployment Best Practices</h2>
+            <p>Gain insights on the best practices for deploying web applications securely and efficiently on Kubernetes, including considerations for networking, storage, and CI/CD integrations.</p>
+        </section>
+        <section class="k8s-community">
+            <h2>Join the Kubernetes Community</h2>
+            <p>Connect with other Kubernetes users, share experiences, and find support among the community via forums and discussion boards.</p>
+        </section>
+        <section class="k8s-contributing">
+            <h2>Contributing to Kubernetes</h2>
+            <p>Learn how to contribute to the Kubernetes project, whether through code, documentation, or community support, and help shape the future of open-source container orchestration.</p>
+        </section>
+        <section class="k8s-faqs">
+            <h2>Frequently Asked Questions</h2>
+            <p>Answers to the most common questions about deploying web apps on Kubernetes, maintenance, and best use cases.</p>
         </section>
     </div>
 </body>
