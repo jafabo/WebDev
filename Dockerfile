@@ -21,7 +21,7 @@ RUN rm /var/www/html/index.html
 COPY ./web-files/ /var/www/html/
 
 # Define the variable that shows the name of the pod
-ENV POD_NAME='Cake is a Lie'
+ENV POD_NAME=metadata.name
 
 # Expose port 80
 EXPOSE 80
