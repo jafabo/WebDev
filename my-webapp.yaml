@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-webapp-container
-        image: mweinberger/webapp-image:recent
+        image: mweinberger/webapp-image:latest
         ports:
         - containerPort: 80
         env:
