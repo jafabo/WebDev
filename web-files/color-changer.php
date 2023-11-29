@@ -55,7 +55,7 @@
 
         <button id="changeColorButton" style="display:none;">Change Background Color</button>
         <button onclick="changeTheme('pastel')">Pastel Theme</button>
-        <button onclick="changeTheme('edgy')">Edgy Theme</button>
+        <button onclick="changeTheme('edgy')">Cursed Theme</button>
         <button onclick="changeTheme('default')">Default Theme</button>
 
 
