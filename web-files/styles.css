@@ -185,8 +185,17 @@ body.edgy-theme a:hover {
   background-color: green;
 }
 
-body.edgy-theme .navbar {
+body.edgy-theme .navbar, body.edgy-theme .vertical-navbar {
   background-color: #28a745; /* Brighter shade of green */
+}
+
+body.edgy-theme .navbar a, body.edgy-theme .vertical-navbar a {
+  color: black; /* Adjusted text color for better visibility */
+}
+
+body.edgy-theme .navbar a:hover, body.edgy-theme .vertical-navbar a:hover {
+  background-color: red;
+  color: green;
 }
 
 body.edgy-theme th {
@@ -199,19 +208,6 @@ body.edgy-theme .pod-name {
   color: black;
 }
 
-
-body.edgy-theme .vertical-navbar {
-  background-color: #28a745; /* Brighter shade of green for edgy theme */
-}
-
-body.edgy-theme .vertical-navbar a {
-  color: black; /* Adjusted text color for better visibility */
-}
-
-body.edgy-theme .vertical-navbar a:hover {
-  background-color: red;
-  color: green;
-}
 
 
 /* Pastel Theme */
@@ -229,8 +225,17 @@ body.pastel-theme a:hover {
   background-color: #6B4226;
 }
 
-body.pastel-theme .navbar {
+body.pastel-theme .navbar, body.pastel-theme .vertical-navbar {
   background-color: #A8E4A0; /* Pastel Green */
+}
+
+body.pastel-theme .navbar a, body.pastel-theme .vertical-navbar a {
+  color: #6B4226; /* Dark brown for text */
+}
+
+body.pastel-theme .navbar a:hover, body.pastel-theme .vertical-navbar a:hover {
+  background-color: #FFB347; /* Pastel orange for hover */
+  color: #FFD1DC;
 }
 
 body.pastel-theme th {
@@ -241,17 +246,4 @@ body.pastel-theme th {
 body.pastel-theme .pod-name {
   background-color: #FFD1DC;
   color: #6B4226;
-}
-
-body.pastel-theme .vertical-navbar {
-  background-color: #A8E4A0; /* Pastel green for pastel theme */
-}
-
-body.pastel-theme .vertical-navbar a {
-  color: #6B4226; /* Dark brown for text */
-}
-
-body.pastel-theme .vertical-navbar a:hover {
-  background-color: #FFB347; /* Pastel orange for hover */
-  color: #FFD1DC;
 }
