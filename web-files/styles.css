@@ -44,7 +44,7 @@ body {
 }
 
 .vertical-navbar {
-  display: none; /* Hidden by default */
+  display: block; /* Hidden by default */
   position: fixed; /* Stay in place while scrolling */
   top: 0;
   left: 0;
@@ -53,6 +53,9 @@ body {
   overflow-x: hidden; /* Hide horizontal scroll */
   padding-top: 20px; /* Spacing at the top */
   background-color: #326ce5; /* Background color */
+  opacity: 0; /* Start with the navbar being transparent */
+  visibility: hidden; /* Make it not visible initially */
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition for opacity and visibility */
   
 }
 
