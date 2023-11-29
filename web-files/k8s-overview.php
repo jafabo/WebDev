@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-    <nav class="navbar">
+        <nav class="navbar">
             <a href="index.php">Home</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>
@@ -19,10 +19,7 @@
             <a href="color-changer.php">Color Changer</a>
         </nav>
         <p class="pod-name">
-            <?php
-                $pod_name = getenv('POD_NAME');
-                echo "Served by pod: $pod_name";
-            ?>
+            <?php echo "Served by pod: " . getenv('POD_NAME'); ?>
         </p>
         <h1>Welcome to Kubernetes</h1>
         <img src="kubernetes-logo.png" alt="Kubernetes Logo" class="k8s-logo">
@@ -41,8 +38,5 @@
         <p>For a more in-depth look, consider exploring the <a href="k8s-evolution.php">evolution of Kubernetes</a> to see how its architecture has been shaped by community contributions and the shifting needs of its users.</p>  
     </div>
 </body>
-</html>
 
-<section class="k8s-architecture">
-    
-</section>
+</html>
