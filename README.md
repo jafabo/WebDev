@@ -4,7 +4,8 @@ podman run -h=Container -p=8080:80 -e POD_NAME=metadata.name -d mweinberger/weba
 
 podman build -t mweinberger/webapp-image:wip .
 
-podman tag webapp-image:wip mweinberger/webapp-image:wip
+podman tag mweinberger/webapp-image:wip mweinberger/webapp-image:recent <-- do this when ready to re-tag to most recent
+
 
 podman push mweinberger/webapp-image:recent 
 
