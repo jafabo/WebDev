@@ -71,18 +71,20 @@
             <h2>Ready for Deep Dive?</h2>
             <p>If you're looking to deepen your knowledge, these resources are a great starting point. Happy learning!</p>
         </section>
+
+        <section class="more-resources">
+            <h2>Further Resources and Learning</h2>
+            <p>As Kubernetes continues to evolve, a myriad of resources are available to help you stay at the cutting edge. Here are some avenues for further learning:</p>
+            <ul>
+                <li><a href="https://kubernetes.io/docs/home/">Official Kubernetes Documentation</a></li>
+                <li><a href="https://www.cncf.io/">Cloud Native Computing Foundation (CNCF)</a></li>
+                <li><a href="https://github.com/kubernetes/kubernetes">Kubernetes on GitHub</a></li>
+                <li><a href="https://www.edx.org/learn/kubernetes">Kubernetes Courses on edX</a></li>
+            </ul>
+            <p>These resources provide a wealth of knowledge for both beginners and advanced users, covering everything from basic tutorials to in-depth discussions on Kubernetes internals and community contributions.</p>
+        </section>
     </div>
 </body>
 </html>
 
-<section class="more-resources">
-    <h2>Further Resources and Learning</h2>
-    <p>As Kubernetes continues to evolve, a myriad of resources are available to help you stay at the cutting edge. Here are some avenues for further learning:</p>
-    <ul>
-        <li><a href="https://kubernetes.io/docs/home/">Official Kubernetes Documentation</a></li>
-        <li><a href="https://www.cncf.io/">Cloud Native Computing Foundation (CNCF)</a></li>
-        <li><a href="https://github.com/kubernetes/kubernetes">Kubernetes on GitHub</a></li>
-        <li><a href="https://www.edx.org/learn/kubernetes">Kubernetes Courses on edX</a></li>
-    </ul>
-    <p>These resources provide a wealth of knowledge for both beginners and advanced users, covering everything from basic tutorials to in-depth discussions on Kubernetes internals and community contributions.</p>
-</section>
+

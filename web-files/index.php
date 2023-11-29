@@ -61,20 +61,22 @@
             <h2>Ready to Dive In?</h2>
             <p>Start with our <a href="k8s-overview.php">Kubernetes Overview</a> or explore any of the sections from the navigation bar to begin your Kubernetes journey!</p>
         </section>
+
+        <section class="intro">
+            <h2>Why Kubernetes?</h2>
+            <p>Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. With it, you can cluster together groups of hosts running Linux® containers, and Kubernetes helps you easily and efficiently manage those clusters.</p>
+        </section>
+        <section class="benefits">
+            <h2>Benefits of Kubernetes</h2>
+            <p>Kubernetes provides the building blocks for building developer platforms, but preserves user choice and flexibility where it is important. It has a large, rapidly growing ecosystem. Kubernetes' services, support, and tools are widely available.</p>
+        </section>
+        <section class="get-started">
+            <h2>Getting Started with Kubernetes</h2>
+            <p>Whether you are new to Kubernetes or an existing user, it's easy to get started. Explore our resources to learn more about how Kubernetes can help you scale your applications, reduce downtime, and manage your containerized services with ease.</p>
+            <p><a href="Learn-More.php">Learn more about Kubernetes</a></p>
+        </section>
     </div>
 </body>
 </html>
 
-<section class="intro">
-    <h2>Why Kubernetes?</h2>
-    <p>Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. With it, you can cluster together groups of hosts running Linux® containers, and Kubernetes helps you easily and efficiently manage those clusters.</p>
-</section>
-<section class="benefits">
-    <h2>Benefits of Kubernetes</h2>
-    <p>Kubernetes provides the building blocks for building developer platforms, but preserves user choice and flexibility where it is important. It has a large, rapidly growing ecosystem. Kubernetes' services, support, and tools are widely available.</p>
-</section>
-<section class="get-started">
-    <h2>Getting Started with Kubernetes</h2>
-    <p>Whether you are new to Kubernetes or an existing user, it's easy to get started. Explore our resources to learn more about how Kubernetes can help you scale your applications, reduce downtime, and manage your containerized services with ease.</p>
-    <p><a href="Learn-More.php">Learn more about Kubernetes</a></p>
-</section>
+
