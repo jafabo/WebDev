@@ -36,19 +36,20 @@
 
         <section>
             <h2>Youtube Videos</h2>
-            <ul>
-                <li><strong>"What is Kubernetes?"</strong> 
-                    <div style="display: flex; justify-content: left;">
+            <div class="video-grid">
+                <div class="video">
                     <iframe width="420" height="345" src="https://www.youtube.com/embed/cC46cg5FFAM"></iframe>
-                    </div>
-                </li>
-            <br>
-                <li><strong>"Kubernetes Explained in 100 Seconds"</strong> 
-                    <div style="display: flex; justify-content: left;">
+                </div>
+                <div class="video">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/FmLna7tHDRc"></iframe>
+                </div>
+                <div class="video">
                     <iframe width="420" height="345" src="https://www.youtube.com/embed/PziYflu8cB8"></iframe>
-                    </div>
-                </li>
-            </ul>
+                </div>
+                <div class="video">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/TlHvYWVUZyc"></iframe>
+                </div>
+            </div>
         </section>
 
         <section>
@@ -70,6 +71,18 @@
         <section class="cta-section">
             <h2>Ready for Deep Dive?</h2>
             <p>If you're looking to deepen your knowledge, these resources are a great starting point. Happy learning!</p>
+        </section>
+
+        <section class="community-forums">
+            <h2>Community Forums and Discussion Platforms</h2>
+            <p>Engaging with the Kubernetes community is a great way to enhance your learning. Here are some popular forums and platforms where you can ask questions, share knowledge, and connect with experts:</p>
+            <ul>
+                <li><a href="https://discuss.kubernetes.io/">Kubernetes Discussion Forums</a></li>
+                <li><a href="https://stackoverflow.com/questions/tagged/kubernetes">Stack Overflow - Kubernetes Tag</a></li>
+                <li><a href="https://www.reddit.com/r/kubernetes/">Reddit Kubernetes Community</a></li>
+                <li><a href="https://slack.k8s.io/">Kubernetes Slack Channel</a></li>
+            </ul>
+            <p>These platforms are invaluable for real-world problem-solving and staying updated with the latest trends and best practices in Kubernetes.</p>
         </section>
 
         <section class="more-resources">
