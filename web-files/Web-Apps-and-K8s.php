@@ -7,12 +7,13 @@
     <title>Web Applications and Kubernetes</title>
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
+    <script src="vertNav.js"></script>
 </head>
 <body>
     <div class="container">
-        <!-- Navigation Bar -->
+        
         <nav class="navbar">
-            <!-- Navigation Links -->
+            
             <a href="index.php">Home</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>
@@ -21,8 +22,17 @@
             <a href="Learn-More.php">Learn More</a>
             <a href="color-changer.php">Color Changer</a>
         </nav>
+        <nav id="verticalNavbar" class="vertical-navbar">
+            <a href="index.php">Home</a>
+            <a href="k8s-overview.php">Kubernetes Overview</a>
+            <a href="k8s-evolution.php">K8s Evolution</a>
+            <a href="Web-Apps-and-K8s.php">Web Apps & K8s</a>
+            <a href="K8s-Benefits.php">K8s Benefits</a>
+            <a href="Learn-More.php">Learn More</a>
+            <a href="color-changer.php">Color Changer</a>
+        </nav>
         <h1 class="page-title">Web Applications and Kubernetes</h1>
-        <!-- Page Content -->
+        
         <section class="web-apps-intro">
             <h2>Integrating Web Applications with Kubernetes</h2>
             <p>Modern web applications benefit from Kubernetes' ability to manage complex containerized environments. This integration allows developers to focus on writing code without worrying about the underlying infrastructure.</p>

@@ -130,6 +130,34 @@ th {
   height: 345px; 
 }
 
+.vertical-navbar {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place while scrolling */
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust as needed */
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal scroll */
+  padding-top: 20px; /* Spacing at the top */
+  background-color: #333; /* Background color */
+  /* ... other styling ... */
+}
+
+.vertical-navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  /* ... other link styling ... */
+}
+
+.vertical-navbar a:hover {
+  color: #f1f1f1;
+  /* ... other hover styling ... */
+}
+
+
 
 
 /* Edgy Theme */

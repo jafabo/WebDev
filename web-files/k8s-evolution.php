@@ -6,10 +6,20 @@
     <title>Kubernetes Evolution</title>
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
+    <script src="vertNav.js"></script>
 </head>
 <body>
     <div class="container">
     <nav class="navbar">
+            <a href="index.php">Home</a>
+            <a href="k8s-overview.php">Kubernetes Overview</a>
+            <a href="k8s-evolution.php">K8s Evolution</a>
+            <a href="Web-Apps-and-K8s.php">Web Apps & K8s</a>
+            <a href="K8s-Benefits.php">K8s Benefits</a>
+            <a href="Learn-More.php">Learn More</a>
+            <a href="color-changer.php">Color Changer</a>
+        </nav>
+        <nav id="verticalNavbar" class="vertical-navbar">
             <a href="index.php">Home</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>

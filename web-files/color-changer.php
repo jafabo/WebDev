@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Changer</title>
-    <!-- Import jQuery library -->
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Link to the external CSS file -->
+    
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
+    <script src="vertNav.js"></script>
     <script>
         // Document Ready function ensures code runs after the DOM is fully loaded
         $(document).ready(function(){
@@ -36,7 +37,16 @@
 </head>
 <body>
     <div class="container">
-    <nav class="navbar">
+        <nav class="navbar">
+            <a href="index.php">Home</a>
+            <a href="k8s-overview.php">Kubernetes Overview</a>
+            <a href="k8s-evolution.php">K8s Evolution</a>
+            <a href="Web-Apps-and-K8s.php">Web Apps & K8s</a>
+            <a href="K8s-Benefits.php">K8s Benefits</a>
+            <a href="Learn-More.php">Learn More</a>
+            <a href="color-changer.php">Color Changer</a>
+        </nav>
+        <nav id="verticalNavbar" class="vertical-navbar">
             <a href="index.php">Home</a>
             <a href="k8s-overview.php">Kubernetes Overview</a>
             <a href="k8s-evolution.php">K8s Evolution</a>
