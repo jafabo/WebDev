@@ -20,8 +20,6 @@ RUN rm /var/www/html/index.html
 # Copy your web files to Apache's root folder
 COPY ./web-files/ /var/www/html/
 
-# Define the variable that shows the name of the pod
-ENV POD_NAME=metadata.name
 
 # Expose port 80
 EXPOSE 80
