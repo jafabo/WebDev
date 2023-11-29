@@ -1,6 +1,6 @@
 # WebDev
 
-podman run --hostname=Container -p=8080:80 -e POD_NAME=metadata.name -d mweinberger/webapp-image:recent
+podman run -h=Container -p=8080:80 -e POD_NAME=metadata.name -d mweinberger/webapp-image:recent
 
 podman build -t webapp-image:recent .
 
