@@ -34,13 +34,15 @@
         <h2>How Does it Work?</h2>
         <p>At a high level, Kubernetes works with 'nodes', which are individual machines, VMs, or cloud instances. These nodes host 'pods', which are sets of containers. The magic of Kubernetes is in how it manages these pods - it can automatically replace, replicate, and scale them based on the configurations you provide.</p>
         <p>A master node controls worker nodes, and the master's job is to manage the Kubernetes cluster. This includes tasks like scheduling applications, maintaining applications' desired state, scaling applications, and rolling out new updates.</p>
+        
+        <h2>Kubernetes Architecture</h2>
+        <p>Understanding the architecture of Kubernetes is crucial for effectively managing containerized applications. At a high level, Kubernetes follows a client-server architecture. The master node is responsible for the global scheduling of workloads and the management of workloads' state to ensure the declared state matches the actual cluster state. Worker nodes are the workhorses that run the applications.</p>
+        <p>The control plane's components, such as the kube-api server, scheduler, and controller manager, run on the master node. In contrast, the worker nodes run kubelet and kube-proxy services and any containers assigned to them by the master.</p>
+        <p>For a more in-depth look, consider exploring the <a href="k8s-evolution.php">evolution of Kubernetes</a> to see how its architecture has been shaped by community contributions and the shifting needs of its users.</p>  
     </div>
 </body>
 </html>
 
 <section class="k8s-architecture">
-    <h2>Kubernetes Architecture</h2>
-    <p>Understanding the architecture of Kubernetes is crucial for effectively managing containerized applications. At a high level, Kubernetes follows a client-server architecture. The master node is responsible for the global scheduling of workloads and the management of workloads' state to ensure the declared state matches the actual cluster state. Worker nodes are the workhorses that run the applications.</p>
-    <p>The control plane's components, such as the kube-api server, scheduler, and controller manager, run on the master node. In contrast, the worker nodes run kubelet and kube-proxy services and any containers assigned to them by the master.</p>
-    <p>For a more in-depth look, consider exploring the <a href="k8s-evolution.php">evolution of Kubernetes</a> to see how its architecture has been shaped by community contributions and the shifting needs of its users.</p>
+    
 </section>

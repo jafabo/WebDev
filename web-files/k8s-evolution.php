@@ -52,6 +52,17 @@
             <img src="weave_kubernetes_platform_updated.webp" alt="Modern Kubernetes architecture and deployments" class="k8s-diagram">
         </p>
 
+        <h2>Key Milestones in Kubernetes Evolution</h2>
+            <p>The development of Kubernetes has been marked by several key milestones that reflect its growing role in cloud computing and container orchestration:</p>
+            <ul>
+                <li><strong>Release of Kubernetes v1.0:</strong> In July 2015, Kubernetes was released, marking the official start of its journey.</li>
+                <li><strong>Cloud Native Computing Foundation:</strong> In July 2016, Kubernetes became part of the CNCF, which provided a strong backing and governance structure.</li>
+                <li><strong>Adoption by Major Cloud Providers:</strong> Over the years, major cloud services have adopted Kubernetes, providing managed services and support.</li>
+                <li><strong>Kubernetes Custom Resources:</strong> The introduction of Custom Resource Definitions (CRDs) has allowed users to extend Kubernetes capabilities.</li>
+                <li><strong>Graduation of Key Features:</strong> Features such as Role-Based Access Control (RBAC) and StatefulSets have graduated to stable versions, indicating their maturity and stability.</li>
+            </ul>
+            <p>Each of these milestones has contributed to the robust, flexible, and scalable tool that Kubernetes is today.</p>
+
         <footer>
             <p>Learn more about Kubernetes and its profound impact on the software industry as you navigate through this site.</p>
         </footer>
@@ -60,14 +71,5 @@
 </html>
 
 <section class="k8s-milestones">
-    <h2>Key Milestones in Kubernetes Evolution</h2>
-    <p>The development of Kubernetes has been marked by several key milestones that reflect its growing role in cloud computing and container orchestration:</p>
-    <ul>
-        <li><strong>Release of Kubernetes v1.0:</strong> In July 2015, Kubernetes was released, marking the official start of its journey.</li>
-        <li><strong>Cloud Native Computing Foundation:</strong> In July 2016, Kubernetes became part of the CNCF, which provided a strong backing and governance structure.</li>
-        <li><strong>Adoption by Major Cloud Providers:</strong> Over the years, major cloud services have adopted Kubernetes, providing managed services and support.</li>
-        <li><strong>Kubernetes Custom Resources:</strong> The introduction of Custom Resource Definitions (CRDs) has allowed users to extend Kubernetes capabilities.</li>
-        <li><strong>Graduation of Key Features:</strong> Features such as Role-Based Access Control (RBAC) and StatefulSets have graduated to stable versions, indicating their maturity and stability.</li>
-    </ul>
-    <p>Each of these milestones has contributed to the robust, flexible, and scalable tool that Kubernetes is today.</p>
+    
 </section>
