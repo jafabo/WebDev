@@ -48,16 +48,16 @@
             <h2>Youtube Videos</h2>
             <div class="video-grid">
                 <div class="video">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/cC46cg5FFAM"></iframe>
+                    <iframe class="youtube-video" width="420" height="345" src="https://www.youtube.com/embed/cC46cg5FFAM"></iframe>
                 </div>
                 <div class="video">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/FmLna7tHDRc"></iframe>
+                    <iframe class="youtube-video" width="420" height="345" src="https://www.youtube.com/embed/FmLna7tHDRc"></iframe>
                 </div>
                 <div class="video">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/PziYflu8cB8"></iframe>
+                    <iframe class="youtube-video" width="420" height="345" src="https://www.youtube.com/embed/PziYflu8cB8"></iframe>
                 </div>
                 <div class="video">
-                    <iframe width="420" height="345" src="https://www.youtube.com/embed/TlHvYWVUZyc"></iframe>
+                    <iframe class="youtube-video" width="420" height="345" src="https://www.youtube.com/embed/TlHvYWVUZyc"></iframe>
                 </div>
             </div>
         </section>

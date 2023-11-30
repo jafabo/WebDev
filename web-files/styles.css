@@ -56,7 +56,6 @@ body {
   opacity: 0; /* Start with the navbar being transparent */
   visibility: hidden; /* Make it not visible initially */
   transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition for opacity and visibility */
-  
 }
 
 .vertical-navbar a {
@@ -65,13 +64,11 @@ body {
   font-size: 25px;
   color: white;
   display: block;
-  
 }
 
 .vertical-navbar a:hover {
   color: #f1f1f1;
   background-color: #244ca3;
-  
 }
 
 .pod-name {
@@ -160,6 +157,17 @@ th {
   align-items: center; 
   height: 345px; 
 }
+
+.youtube-video {
+  transition: transform 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.youtube-video:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
 
 
 
