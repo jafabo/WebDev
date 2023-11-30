@@ -168,6 +168,16 @@ th {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
+.k8s-logo2 {
+  transition: transform 0.1s linear; 
+  display: block;
+  margin: auto; 
+  max-width: 500px; 
+  height: auto;
+}
+
+
+
 
 
 

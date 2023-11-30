@@ -7,6 +7,8 @@
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
     <script src="vertNav.js"></script>
+    <script src="spin.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -37,16 +39,24 @@
         
         <h1>The Evolution of Kubernetes</h1>
         
-        <h2>Early Days: Pre-Kubernetes Era</h2>
-        <p>
-            Before Kubernetes, managing containerized applications at scale was a challenge. Tools like Docker popularized containerization, but orchestrating them was still manual and complex.
-            <img src="path-to-image/pre-kubernetes-era.jpg" alt="Diagram illustrating challenges before Kubernetes" class="k8s-diagram">
-        </p>
-
         <h2>2014: The Birth of Kubernetes</h2>
         <p>
-            Kubernetes, also known as K8s, was released as an open-source project by Google in 2014. It was built upon Google's decade-plus years of experience in running massive-scale workloads using a system called Borg.
-            <img src="path-to-image/birth-of-kubernetes.jpg" alt="Kubernetes initial logo and contributors" class="k8s-diagram">
+        Before Kubernetes, managing containerized applications at scale was a challenge. Tools like Docker popularized containerization, but orchestrating them was still manual and complex.     
+        </p>
+        <p>
+        In 2014, Kubernetes emerged as a revolutionary force in container orchestration, fundamentally changing the landscape of cloud computing. Developed by Joe Beda, Brendan Burns, and Craig McLuckie at Google, Kubernetes was inspired by Google's internal system, Borg. It aimed to address the challenges of large-scale container management, drawing on Google's extensive experience in running services at scale.
+        </p>
+        <p>
+        Kubernetes, also known as K8s, was released as an open-source project to foster wider adoption and community involvement. It stood out for its ability to automate deployment, scale, and operate containerized applications efficiently. The project's transfer to the Cloud Native Computing Foundation (CNCF) ensured its growth as a community-driven platform, not limited to Google's infrastructure.
+        </p>
+        <p>
+        This release signified a new era in cloud-native development, offering a flexible, scalable solution for managing complex applications. Kubernetes quickly gained popularity due to its robust features, like handling service discovery, load balancing, and self-healing mechanisms, making it an essential tool for modern DevOps practices.
+        </p>
+        <p>
+        Since then, Kubernetes has become the backbone of containerized infrastructure, supporting a wide range of cloud environments and applications. Its introduction marked the beginning of a significant shift towards microservices architectures and set the stage for the future of application deployment and management.
+    
+        <img src="Kubernetes_logo_without_workmark.png" alt="Kubernetes logo" class="k8s-logo2" id="k8s-logo2">
+
         </p>
 
         <h2>Gaining Traction: Rise of Cloud Native</h2>
