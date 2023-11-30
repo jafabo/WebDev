@@ -34,5 +34,8 @@ COPY ./web-files/ /var/www/html/
 # Expose port 80
 EXPOSE 80
 
+# Expose port 443
+EXPOSE 443
+
 # Run Apache in foreground
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
