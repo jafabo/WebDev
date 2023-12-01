@@ -11,7 +11,7 @@
     <script src="themeChanger.js"></script>
     <script src="vertNav.js"></script>
     <script>
-        // Document Ready function ensures code runs after the DOM is fully loaded
+        
         $(document).ready(function(){
             // Retrieve saved background color
             var savedColor = localStorage.getItem("bgColor");

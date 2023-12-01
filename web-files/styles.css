@@ -22,12 +22,12 @@ body {
 }
 
 .navbar {
-  background-color: #326ce5; /* Kubernetes blue */
+  background-color: #326ce5; 
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 20px;
-  display: flex; /* Flexbox */
-  justify-content: space-between; /* Even spacing */
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .navbar a {
@@ -39,23 +39,23 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #244ca3; /* Darkened Kubernetes blue */
+  background-color: #244ca3; 
   color: white;
 }
 
 .vertical-navbar {
-  display: block; /* Hidden by default */
-  position: fixed; /* Stay in place while scrolling */
+  display: block; 
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 175px; /* Adjust as needed */
+  width: 175px; 
   height: 100%;
-  overflow-x: hidden; /* Hide horizontal scroll */
-  padding-top: 20px; /* Spacing at the top */
-  background-color: #326ce5; /* Background color */
-  opacity: 0; /* Start with the navbar being transparent */
-  visibility: hidden; /* Make it not visible initially */
-  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition for opacity and visibility */
+  overflow-x: hidden; 
+  padding-top: 20px; 
+  background-color: #326ce5; 
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.5s ease, visibility 0.5s ease; 
 }
 
 .vertical-navbar a {
@@ -72,7 +72,7 @@ body {
 }
 
 .pod-name {
-  background-color: #e0e9f8; /* Lighter shade of Kubernetes blue */
+  background-color: #e0e9f8; 
   padding: 10px;
   border-radius: 5px;
   text-align: center;
@@ -86,12 +86,12 @@ h1, h2 {
 
 h1 {
   font-size: 2.5em;
-  color: #326ce5; /* Kubernetes blue for headers */
+  color: #326ce5; 
 }
 
 h2 {
   font-size: 2em;
-  border-bottom: 2px solid #e0e9f8; /* Lighter shade of Kubernetes blue for underline */
+  border-bottom: 2px solid #e0e9f8; 
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
@@ -112,12 +112,12 @@ p {
 }
 
 a {
-  color: #326ce5; /* Kubernetes blue for links */
+  color: #326ce5; 
   text-decoration: underline;
 }
 
 a:hover {
-  color: #244ca3; /* Darkened Kubernetes blue */
+  color: #244ca3; 
   text-decoration: none;
 }
 
@@ -186,12 +186,12 @@ th {
 
 /* Edgy Theme */
 body.edgy-theme {
-  background-color: #2a2a2a; /* Dark gray for the body background */
+  background-color: #2a2a2a; 
   color: red;
 }
 
 body.edgy-theme .container {
-  background-color: black; /* Black for the container */
+  background-color: black; 
 }
 
 body.edgy-theme a, body.edgy-theme nav {
@@ -204,11 +204,11 @@ body.edgy-theme a:hover {
 }
 
 body.edgy-theme .navbar, body.edgy-theme .vertical-navbar {
-  background-color: #28a745; /* Brighter shade of green */
+  background-color: #28a745; 
 }
 
 body.edgy-theme .navbar a, body.edgy-theme .vertical-navbar a {
-  color: black; /* Adjusted text color for better visibility */
+  color: black; 
 }
 
 body.edgy-theme .navbar a:hover, body.edgy-theme .vertical-navbar a:hover {
@@ -230,12 +230,12 @@ body.edgy-theme .pod-name {
 
 /* Pastel Theme */
 body.pastel-theme {
-  background-color: #AEDFF7; /* Pastel Blue */
-  color: #6B4226; /* Dark Brown for text contrast */
+  background-color: #AEDFF7; 
+  color: #6B4226; 
 }
 
 body.pastel-theme a, body.pastel-theme nav {
-  color: #6B4226; /* Dark Brown */
+  color: #6B4226; 
 }
 
 body.pastel-theme a:hover {
@@ -244,21 +244,21 @@ body.pastel-theme a:hover {
 }
 
 body.pastel-theme .navbar, body.pastel-theme .vertical-navbar {
-  background-color: #A8E4A0; /* Pastel Green */
+  background-color: #A8E4A0; 
 }
 
 body.pastel-theme .navbar a, body.pastel-theme .vertical-navbar a {
-  color: #6B4226; /* Dark brown for text */
+  color: #6B4226; 
 }
 
 body.pastel-theme .navbar a:hover, body.pastel-theme .vertical-navbar a:hover {
-  background-color: #FFB347; /* Pastel orange for hover */
+  background-color: #FFB347; 
   color: #FFD1DC;
 }
 
 body.pastel-theme th {
-  background-color: #FFB347; /* Pastel Orange */
-  color: #6B4226; /* Dark Brown */
+  background-color: #FFB347; 
+  color: #6B4226; 
 }
 
 body.pastel-theme .pod-name {

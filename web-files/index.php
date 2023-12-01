@@ -37,7 +37,7 @@
         </p>
         <h1 class="welcome-message">Welcome to Kubernetes Information Hub!</h1>
 
-        <!-- Introduction Section -->
+        
         <section class="intro-section">
             <h2>About This Site</h2>
             <p>
@@ -45,7 +45,7 @@
             </p>
         </section>
 
-        <!-- Features/Contents Section -->
+       
         <section class="contents-section">
             <h2>What's Inside?</h2>
             <ul>
@@ -58,7 +58,7 @@
             </ul>
         </section>
 
-        <!-- Explanation about "Served by pod" -->
+       
         <section class="pod-explanation-section">
             <h2>About "Served by pod:"</h2>
             <p>
@@ -66,7 +66,7 @@
             </p>
         </section>
 
-        <!-- Optional: Call-to-action or Next Steps -->
+       
         <section class="cta-section">
             <h2>Ready to Dive In?</h2>
             <p>Start with our <a href="k8s-overview.php">Kubernetes Overview</a> or explore any of the sections from the navigation bar to begin your Kubernetes journey!</p>
